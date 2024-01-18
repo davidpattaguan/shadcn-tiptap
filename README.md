@@ -1,3 +1,6 @@
+## THIS IS JUST A BASIC IMPLEMENTATION OF HOW YOU CAN GET TIPTAP EDITOR UP AND RUNNING WITH NEXTJS AND SHADCN UI.
+Give it a star if it somewhat helped you I guess?
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
