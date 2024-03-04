@@ -5,16 +5,16 @@ This is a basic setup for integrating Tiptap Editor with Next.js and Shadcn UI.
 ## Getting Started
 
 1. Clone the repository.
-2. Run the development server:
+2. Open the repository and install dependencies using npm install
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see the result.
