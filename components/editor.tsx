@@ -27,11 +27,11 @@ export default function Tiptap() {
     StarterKit.configure({
       bulletList: {
         keepMarks: true,
-        keepAttributes: false, // TODO : Making this as `false` becase marks are not preserved when I try to preserve attrs, awaiting a bit of help
+        keepAttributes: false,
       },
       orderedList: {
         keepMarks: true,
-        keepAttributes: false, // TODO : Making this as `false` becase marks are not preserved when I try to preserve attrs, awaiting a bit of help
+        keepAttributes: false,
       },
     }),
     Document,
@@ -43,10 +43,6 @@ export default function Tiptap() {
       levels: [1, 2, 3, 4, 5, 6],
     }),
   ];
-
-  const onContentUpdate = (editor: Editor) => {
-    // setRichText(editor.getHTML());
-  };
 
   const editor = useEditor({
     extensions: extensions,
@@ -93,11 +89,10 @@ display: none;
   return (
     <div>
       <div className="border">
-        {" "}
         <Toolbar editor={editor} />
       </div>
-      <div className="border">
-        <EditorContent editor={editor} className="w-full" />
+      <div className="border flex justify-center">
+        <EditorContent editor={editor} className="" />
       </div>
     </div>
   );

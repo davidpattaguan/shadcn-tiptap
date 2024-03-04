@@ -43,7 +43,7 @@ export function Toolbar({ editor }: Props) {
   }
 
   return (
-    <div className="flex gap-2">
+    <div className="container grid grid-cols-8 gap-2">
       <Toggle
         size="sm"
         variant={"default"}

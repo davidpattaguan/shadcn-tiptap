@@ -2,13 +2,13 @@ import Tiptap from "@/components/editor";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-w-screen min-h-screen items-center ">
+    <main className="flex flex-col md:container">
       <section>
-        <h1 className="text-4xl font-bold text-black mb-10 mt-10">
+        <h1 className="flex justify-center text-xl lg:text-4xl font-bold text-black mb-10 mt-10 ">
           Tiptap + NextJs + Shadcn
         </h1>
       </section>
-      <section className="mb-5">
+      <section>
         <Tiptap />
       </section>
     </main>
