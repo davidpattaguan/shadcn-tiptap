@@ -1,3 +1,6 @@
+_Disclaimer: This is a basic implementation and not maintained. If it helped you, consider giving it a star!_
+
+
 # Next.js with Tiptap Editor and Shadcn UI
 
 This is a basic setup for integrating Tiptap Editor with Next.js and Shadcn UI.
@@ -33,4 +36,3 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 Deploy your Next.js app easily with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme). Refer to [deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-_Note: This is a basic implementation and not maintained. If it helped you, consider giving it a star!_
